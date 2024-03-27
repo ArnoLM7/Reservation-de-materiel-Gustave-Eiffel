@@ -1,0 +1,120 @@
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 150;
+}
+
+#container_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.lien_header{
+    font-family: 'inter';
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2D2D80;
+    border: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.lien{
+    text-decoration: unset;
+    color: white;
+    font-size: 16px;
+}
+
+.lien_header:hover{
+    cursor: pointer;
+    background-color: #4343ff;
+}
+
+.lien_logout {
+    font-family: 'inter';
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2D2D80;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: absolute;
+    right: 1%;
+}
+
+.lien_logout:hover{
+    cursor: pointer;
+    background-color: #4343ff;
+}
+
+#recherche{
+    font-family: 'inter';
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: unset;
+    margin-top: 0.86%;
+    margin-left: 0.9%;
+}
+
+#selection {
+    margin-top: 35px;
+    font-family: 'inter';
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 35px;
+    border: none;
+}
+
+#refuser{
+    margin-left: 50%;
+    transform: translate(-25%);
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+    font-family: Arial, sans-serif;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.styled-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #ffffff; /* White for even rows */
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Grey for odd rows */
+}
